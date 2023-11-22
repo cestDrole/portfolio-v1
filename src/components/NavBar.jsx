@@ -18,7 +18,7 @@ const NavBar = () => {
             </li>
           ))}
         </ul>
-        <Button label='Resume' iconUrl={download} textColor='text-black' />
+        <Button label='Resume' iconUrl={download} />
         <div className='hidden max-lg:block'>
           <img src={hamburger} alt='Hamburger' width={25} height={25} />
         </div>

@@ -7,12 +7,12 @@ const Button = ({
 }) => {
   return (
     <button
-      className={`flex justify-center items-center gap-2 px-7 py-4 border text-lg leading-none 
+      className={`flex justify-center items-center gap-2 px-5 py-3 border text-lg leading-none 
       ${
         backgroundColor
           ? `${backgroundColor} ${textColor} ${borderColor}`
           : "bg-blue-400 text-white border-white"
-      } rounded-full`}
+      } rounded-full max-sm:py-2`}
     >
       {label}
 
@@ -20,7 +20,7 @@ const Button = ({
         <img
           src={iconUrl}
           alt="download"
-          className="ml-2 rounded-full w-5 h-5"
+          className="w-6 h-6"
         />
       )}
     </button>
