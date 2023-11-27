@@ -6,18 +6,18 @@ import Projects from "./sections/Projects";
 import Footer from "./sections/Footer";
 
 const App = () => (
-  <main className="relative">
+  <main className='relative'>
     <NavBar />
-    <section>
+    <section id='home'>
       <Hero />
     </section>
-    <section>
+    <section id='about-me'>
       <AboutMe />
     </section>
-    <section>
+    <section id='projects'>
       <Projects />
     </section>
-    <section>
+    <section id='contact-me'>
       <Contact />
     </section>
     <Footer />
