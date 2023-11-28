@@ -3,7 +3,7 @@ import { aboutMe } from "../constants";
 
 const AboutMe = () => {
   return (
-    <section className='max-w-[1440px]'>
+    <div className='max-w-[1440px] my-0 mx-auto'>
       <div className='flex flex-col gap-8'>
         <h1 className='text-center font-semibold text-2xl pt-8 font-montserrat'>
           About Me
@@ -20,7 +20,7 @@ const AboutMe = () => {
           imgUrl={aboutMe[1].imgURL}
         />
       </div>
-    </section>
+    </div>
   );
 };
 
