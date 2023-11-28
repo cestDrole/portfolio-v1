@@ -11,6 +11,10 @@ import react from "./reactjs-icon.svg";
 import tailwind from "./tailwind.svg";
 import manager from "./manager.jpg";
 import developer from "./developer.jpg";
+import shoes from "./shoes.png";
+import hoobank from "./hoobank.png";
+import carRent from "./carRent.png";
+import metaverse from "./metaverse.png";
 
 export {
   hamburger,
@@ -26,4 +30,8 @@ export {
   tailwind,
   manager,
   developer,
+  shoes,
+  hoobank,
+  carRent,
+  metaverse,
 };
