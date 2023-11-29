@@ -23,7 +23,7 @@ const Hero = () => {
             />
           </a>
           <a
-            href='https://linkedin.com/in/sebastian-jasnosz-29427a163'
+            href='https://linkedin.com/in/sebastian-jasnosz'
             className='cursor-pointer'
           >
             <img
