@@ -15,6 +15,8 @@ import shoes from "./shoes.png";
 import hoobank from "./hoobank.png";
 import carRent from "./carRent.png";
 import metaverse from "./metaverse.png";
+import external from "./external.svg";
+import githubWhite from "./github-white.svg";
 
 export {
   hamburger,
@@ -34,4 +36,6 @@ export {
   hoobank,
   carRent,
   metaverse,
+  external,
+  githubWhite,
 };
