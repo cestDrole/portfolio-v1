@@ -17,6 +17,9 @@ import carRent from "./carRent.png";
 import metaverse from "./metaverse.png";
 import external from "./external.svg";
 import githubWhite from "./github-white.svg";
+import linkedinWhite from "./linkedin-white.svg";
+import pin from "./pin.svg";
+import mail from "./mail.svg";
 
 export {
   hamburger,
@@ -38,4 +41,7 @@ export {
   metaverse,
   external,
   githubWhite,
+  linkedinWhite,
+  pin,
+  mail,
 };
