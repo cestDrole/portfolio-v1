@@ -1,11 +1,11 @@
 import { githubWhite, linkedinWhite } from "../assets";
 
 const Footer = () => (
-  <footer className='flex flex-auto justify-between items-center bg-slate-900 h-[100px] rounded-t-2xl'>
+  <footer className='flex flex-auto justify-between bg-slate-900 h-[100px] rounded-t-2xl items-center'>
     <h2 className='text-white font-montserrat pl-4'>
       © Sebastian Jasnosz 2023
     </h2>
-    <div className='flex flex-1 gap-6 items-center justify-center'>
+    <div className='flex flex-1 gap-6 items-end justify-center'>
       <a href='https://github.com/cestDrole' className='cursor-pointer'>
         <img src={githubWhite} className='h-7 w-7' />
       </a>

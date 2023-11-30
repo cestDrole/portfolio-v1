@@ -20,6 +20,7 @@ import githubWhite from "./github-white.svg";
 import linkedinWhite from "./linkedin-white.svg";
 import pin from "./pin.svg";
 import mail from "./mail.svg";
+import close from "./close.svg";
 
 export {
   hamburger,
@@ -44,4 +45,5 @@ export {
   linkedinWhite,
   pin,
   mail,
+  close,
 };
