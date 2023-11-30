@@ -30,14 +30,14 @@ const ProjectCard = ({
       <div className='flex flex-1 gap-4 justify-center items-center'>
         <a
           href={githubUrl}
-          className='flex flex-auto justify-center items-center gap-2 border py-2 px-4 rounded-2xl shadow-xl bg-slate-700'
+          className='flex flex-auto justify-center items-center gap-2 border py-2 px-4 rounded-2xl shadow-xl bg-slate-900'
         >
           <p className='font-palanquin text-white tracking-wide'>GitHub</p>
           <img src={githubWhite} className='h-5 w-5' />
         </a>
         <a
           href={demoUrl}
-          className='flex flex-auto justify-center items-center gap-1 border bg-white border-slate-700 py-2 px-2 rounded-2xl shadow-xl'
+          className='flex flex-auto justify-center items-center gap-1 border bg-white border-slate-900 py-2 px-2 rounded-2xl shadow-xl'
         >
           <p className='font-palanquin tracking-wide'>Live Demo</p>
           <img src={external} className='h-5 w-5' />

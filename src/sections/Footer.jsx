@@ -1,7 +1,7 @@
 import { githubWhite, linkedinWhite } from "../assets";
 
 const Footer = () => (
-  <footer className='flex flex-auto justify-between items-center bg-slate-900 h-[100px]'>
+  <footer className='flex flex-auto justify-between items-center bg-slate-900 h-[100px] rounded-t-2xl'>
     <h2 className='text-white font-montserrat pl-4'>
       © Sebastian Jasnosz 2023
     </h2>
