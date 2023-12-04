@@ -12,7 +12,7 @@ const Button = ({
       ${
         backgroundColor
           ? `${backgroundColor} ${textColor} ${borderColor}`
-          : "bg-blue-400 text-white border-white"
+          : "bg-slate-900 text-white border-white"
       } rounded-full max-sm:py-2 ${buttonStyles}`}
     >
       {label}
