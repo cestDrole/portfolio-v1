@@ -8,17 +8,19 @@ const AboutMe = () => {
         <h1 className='text-center font-semibold text-3xl pt-8 font-montserrat'>
           About Me
         </h1>
-        <AboutCard
-          title={aboutMe[0].title}
-          subtext={aboutMe[0].subtext}
-          imgUrl={aboutMe[0].imgURL}
-        />
+        <div className='flex flex-col gap-8 md:flex-row md:gap-0'>
+          <AboutCard
+            title={aboutMe[0].title}
+            subtext={aboutMe[0].subtext}
+            imgUrl={aboutMe[0].imgURL}
+          />
 
-        <AboutCard
-          title={aboutMe[1].title}
-          subtext={aboutMe[1].subtext}
-          imgUrl={aboutMe[1].imgURL}
-        />
+          <AboutCard
+            title={aboutMe[1].title}
+            subtext={aboutMe[1].subtext}
+            imgUrl={aboutMe[1].imgURL}
+          />
+        </div>
       </div>
     </div>
   );

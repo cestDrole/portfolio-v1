@@ -1,5 +1,5 @@
 const AboutCard = ({ title, subtext, imgUrl }) => (
-  <div className='flex flex-col justify-center items-center border rounded-lg mx-4 shadow-xl'>
+  <div className='flex flex-col justify-center items-center border rounded-lg mx-4 md:mx-0 shadow-xl'>
     <div className='py-6'>
       <img
         src={imgUrl}

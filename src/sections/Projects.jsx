@@ -8,7 +8,7 @@ const Projects = () => {
       <h1 className='text-center font-semibold text-3xl py-6 font-montserrat'>
         Projects
       </h1>
-      <div className='flex flex-1 flex-col gap-8'>
+      <div className='flex flex-1 flex-col gap-8  md:max-w-[1440px]'>
         {projectList.map((project) => (
           <ProjectCard
             name={project.name}
