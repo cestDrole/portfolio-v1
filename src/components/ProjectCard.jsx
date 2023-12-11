@@ -9,8 +9,8 @@ const ProjectCard = ({
   githubUrl,
   demoUrl,
 }) => (
-  <div className='flex flex-1 justify-center items-center flex-col md:flex-row border mx-4 rounded-2xl flex-shrink shadow-xl bg-white'>
-    <div className='h-auto w-auto overflow-hidden rounded-2xl shadow-lg mt-8 basis-[310px] mx-4'>
+  <div className='flex flex-auto justify-center max-w-[800px] h-[500px] items-center flex-col md:gap-6 md:flex-row border max-sm:basis-[310px] py-4 mx-4 px-7 rounded-2xl flex-shrink shadow-xl bg-white'>
+    <div className='h-[250px] md:h-[380px] w-auto overflow-hidden rounded-2xl shadow-lg mx-4'>
       <a href={demoUrl}>
         <img src={imgUrl} />
       </a>
@@ -20,7 +20,9 @@ const ProjectCard = ({
         <h2 className='text-center text-2xl font-montserrat pb-4 pt-6 font-semibold'>
           {name}
         </h2>
-        <p className='text-justify font-palanquin px-10'>{description}</p>
+        <p className='text-justify font-palanquin px-6 md:px-4'>
+          {description}
+        </p>
       </div>
       <div className='flex flex-1 items-center justify-center flex-col gap-4 py-4 px-6'>
         <div className='flex flex-1 gap-2 flex-wrap justify-center items-center py-1'>
