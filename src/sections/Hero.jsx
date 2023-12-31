@@ -1,11 +1,11 @@
-import { linkedin, github } from "../assets";
+import { linkedin, github, hero } from "../assets";
 import { techStack } from "../constants";
 
 const Hero = () => {
   return (
-    <div className='flex justify-center items-center gap-12 w-full h-[100vh] bg-slate-100 max-sm:flex-col-reverse'>
+    <div className='flex justify-center items-center gap-8 w-full max-sm:h-[900px] h-[100vh] bg-slate-100 max-sm:flex-col-reverse'>
       <div className='px-8 sm:px-16'>
-        <div className=' pt-2 sm:pt-4'>
+        <div className='sm:pt-4'>
           <h1 className='text-4xl font-semibold font-montserrat max-sm:text-[40px] text-center sm:text-left leading-tight sm:leading-normal'>
             Front-End React <br /> Developer
           </h1>
@@ -49,8 +49,13 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div>
-        <h1>Placeholder</h1>
+      <div className='pt-10'>
+        <img
+          src={hero}
+          alt='hero'
+          className='md:h-[550px] md:w-[550px] rounded-full
+          h-[250px] w-[250px] shadow-xl'
+        />
       </div>
     </div>
   );

@@ -9,7 +9,7 @@ const ProjectCard = ({
   githubUrl,
   demoUrl,
 }) => (
-  <div className='flex flex-auto justify-center max-w-[800px] h-[500px] items-center flex-col md:gap-6 md:flex-row border max-sm:basis-[310px] py-4 mx-4 px-7 rounded-2xl flex-shrink shadow-xl bg-white'>
+  <div className='flex flex-auto justify-center max-w-[850px] h-[500px] items-center flex-col md:gap-6 md:flex-row border max-sm:basis-[310px] py-4 mx-4 px-7 rounded-2xl flex-shrink shadow-xl bg-white'>
     <div className='h-[250px] md:h-[380px] w-auto overflow-hidden rounded-2xl shadow-lg mx-4'>
       <a href={demoUrl}>
         <img src={imgUrl} />
@@ -40,7 +40,7 @@ const ProjectCard = ({
           </a>
           <a
             href={demoUrl}
-            className='flex flex-auto justify-center items-center gap-1 border bg-white border-slate-900 py-2 px-2 rounded-2xl shadow-xl'
+            className='flex flex-auto justify-center items-center gap-2 border bg-white border-slate-900 rounded-2xl shadow-xl overflow-auto h-[42px] w-[140px]'
           >
             <p className='font-palanquin tracking-wide'>Live Demo</p>
             <img src={external} className='h-5 w-5' />

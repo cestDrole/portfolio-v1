@@ -21,6 +21,7 @@ import linkedinWhite from "./linkedin-white.svg";
 import pin from "./pin.svg";
 import mail from "./mail.svg";
 import close from "./close.svg";
+import hero from "./hero.jpg";
 
 export {
   hamburger,
@@ -46,4 +47,5 @@ export {
   pin,
   mail,
   close,
+  hero,
 };
