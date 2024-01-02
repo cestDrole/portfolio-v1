@@ -10,20 +10,22 @@ const NavBar = ({ status, setToggle }) => {
         <a href='/' className='font-bold text-lg'>
           SJ
         </a>
-        <ul className='flex-1 flex justify-center items-center gap-8 lg:gap-16 max-md:hidden'>
-          {navLinks.map((item) => (
-            <li key={item.label}>
-              <a href={item.href} className='text-lg'>
-                {item.label}
-              </a>
-            </li>
-          ))}
-        </ul>
-        <Button
-          label='Resume'
-          iconUrl={download}
-          buttonStyles={"hidden md:block"}
-        />
+        <div className='flex flex-1 items-center'>
+          <ul className='flex-1 flex justify-center items-center gap-8 lg:gap-16 max-md:hidden w-[200px]'>
+            {navLinks.map((item) => (
+              <li key={item.label}>
+                <a href={item.href} className='text-lg'>
+                  {item.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+          <Button
+            label='Resume'
+            iconUrl={download}
+            buttonStyles={"hidden md:block h-[60px] w-[180px]"}
+          />
+        </div>
         <div className='hidden max-md:block'>
           <img
             src={hamburger}
