@@ -23,7 +23,7 @@ const NavBar = ({ status, setToggle }) => {
           <Button
             label='Resume'
             iconUrl={download}
-            buttonStyles={"hidden md:block h-[60px] w-[180px]"}
+            buttonStyles={"hidden md:flex"}
           />
         </div>
         <div className='hidden max-md:block'>

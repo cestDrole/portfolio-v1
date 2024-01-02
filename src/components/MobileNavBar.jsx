@@ -30,7 +30,7 @@ const MobileNavBar = ({ status, setToggle }) => {
           </li>
         ))}
         <li>
-          <Button label='Resume' iconUrl={download} />
+          <Button label='Resume' iconUrl={download} buttonStyles={"flex"} />
         </li>
       </ul>
     </div>
