@@ -5,16 +5,19 @@ import { download } from "../assets";
 
 const NavBar = ({ status, setToggle }) => {
   return (
-    <header className='w-full z-10 sm:px-16 px-8 py-5 sm:py-6 fixed shadow-xl bg-slate-50'>
+    <header className='w-full z-10 sm:px-16 px-8 py-5 fixed shadow-xl bg-slate-50'>
       <nav className='flex justify-between items-center max-w-[1440px] mx-auto my-0 '>
         <a href='/' className='font-bold text-lg'>
           SJ
         </a>
-        <div className='flex flex-1 items-center'>
-          <ul className='flex-1 flex justify-center items-center gap-8 lg:gap-16 max-md:hidden w-[200px]'>
+        <div className='flex items-center gap-12'>
+          <ul className='flex-1 flex justify-center items-center gap-8 lg:gap-12 max-md:hidden '>
             {navLinks.map((item) => (
               <li key={item.label}>
-                <a href={item.href} className='text-lg'>
+                <a
+                  href={item.href}
+                  className='text-lg hover:border-b hover:border-slate-900 font-montserrat'
+                >
                   {item.label}
                 </a>
               </li>
