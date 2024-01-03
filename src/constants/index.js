@@ -24,28 +24,32 @@ export const techStack = [
   {
     imgURL: html,
     name: "HTML",
+    styles: "sm:order-1",
   },
   {
     imgURL: css,
     name: "CSS",
+    styles: "sm:order-2",
   },
   {
     imgURL: javascript,
     name: "Javascript",
+    styles: "sm:order-3",
   },
   {
     imgURL: react,
     name: "React JS",
-    styles: "bg-slate-700 py-1 px-1",
+    styles: "bg-slate-700 py-1 px-1 sm:order-5",
   },
   {
     imgURL: tailwind,
     name: "Tailwind",
-    styles: "bg-slate-700 py-1 px-1",
+    styles: "bg-slate-700 py-1 px-1 sm:order-6",
   },
   {
     imgURL: typescript,
     name: "Typescript",
+    styles: "sm:order-4",
   },
 ];
 
