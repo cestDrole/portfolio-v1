@@ -58,13 +58,12 @@ export const aboutMe = [
     imgURL: developer,
     title: "Front-End Developer",
     subtext:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rhoncus eget ipsum non tempor. Aliquam lobortis elit sed sem tincidunt, et eleifend lacus vestibulum. Sed bibendum, odio at venenatis egestas, lacus orci facilisis dolor, a rhoncus sapien quam eget dui. Nulla nec semper felis, et lobortis eros. Suspendisse sodales velit ac sem placerat malesuada.",
+      "Rooted in commercial retail space design, I aspire to develop user interfaces that harmoniously integrate merchandising with an exceptional user experience. My approach incorporates responsive web design principles and accessibility standards, ensuring a seamless and engaging online experience.",
   },
   {
     imgURL: manager,
     title: "Experienced Designer/Manager",
-    subtext:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rhoncus eget ipsum non tempor. Aliquam lobortis elit sed sem tincidunt, et eleifend lacus vestibulum. Sed bibendum, odio at venenatis egestas, lacus orci facilisis dolor, a rhoncus sapien quam eget dui. Nulla nec semper felis, et lobortis eros. Suspendisse sodales velit ac sem placerat malesuada.",
+    subtext: `Over 5 years in commercial retail space design and management, I apply industry best practices to maximize sales potential without compromising client experience. Proven track record in delivering strategic implementations for increased revenue and customer satisfaction.`,
   },
 ];
 
