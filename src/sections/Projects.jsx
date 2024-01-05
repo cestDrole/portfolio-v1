@@ -1,4 +1,3 @@
-import Badge from "../components/Badge";
 import ProjectCard from "../components/ProjectCard";
 import { projectList } from "../constants";
 
@@ -17,6 +16,8 @@ const Projects = () => {
             imgUrl={project.imgURL}
             githubUrl={project.githubUrl}
             demoUrl={project.demoUrl}
+            cardStyles={project.cardStyles}
+            transition={project.transition}
           />
         ))}
       </div>

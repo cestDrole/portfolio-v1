@@ -8,11 +8,18 @@ const ProjectCard = ({
   imgUrl,
   githubUrl,
   demoUrl,
+  cardStyles,
+  transition,
 }) => (
-  <div className='flex flex-auto justify-center max-w-[850px] h-[500px] items-center flex-col md:gap-6 md:flex-row border max-sm:basis-[310px] py-4 mx-4 px-7 rounded-2xl flex-shrink shadow-xl bg-white'>
-    <div className='h-[250px] md:h-[380px] w-auto overflow-hidden rounded-2xl shadow-lg mx-4'>
+  <div
+    className={`flex flex-auto justify-center md:w-[768px] h-[auto] md:h-[500px] items-center flex-col md:gap-6 ${cardStyles} border max-sm:basis-[310px] py-4 mx-4 px-7 rounded-2xl flex-shrink shadow-xl bg-white`}
+  >
+    <div className='h-[250px] md:h-[380px] w-[80%] md:w-auto overflow-hidden rounded-2xl shadow-lg mx-4 mt-4 md:mt-0'>
       <a href={demoUrl}>
-        <img src={imgUrl} />
+        <img
+          src={imgUrl}
+          className={`transform ${transition} duration-[5s] ease-in-out h-auto`}
+        />
       </a>
     </div>
     <div>

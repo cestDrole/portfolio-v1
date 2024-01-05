@@ -76,6 +76,8 @@ export const projectList = [
     imgURL: carRent,
     githubUrl: "https://github.com/cestDrole/cars-nextjs",
     demoUrl: "https://car-rentalhub.netlify.app/",
+    cardStyles: "md:flex-row",
+    transition: "hover:-translate-y-[50%]",
   },
   {
     name: "Metaverse Madness",
@@ -85,6 +87,8 @@ export const projectList = [
     imgURL: metaverse,
     githubUrl: "https://github.com/cestDrole/metaversus-nextjs",
     demoUrl: "https://metaversus-madnesss.netlify.app/",
+    cardStyles: "md:flex-row-reverse",
+    transition: "hover:-translate-y-[77%]",
   },
   {
     name: "HooBank",
@@ -94,6 +98,8 @@ export const projectList = [
     imgURL: hoobank,
     githubUrl: "https://github.com/cestDrole/bank_tailwind",
     demoUrl: "https://bank-hoo-bank.netlify.app/",
+    cardStyles: "md:flex-row",
+    transition: "hover:-translate-y-[63%]",
   },
   {
     name: "Shoes Store",
@@ -103,5 +109,7 @@ export const projectList = [
     imgURL: shoes,
     githubUrl: "https://github.com/cestDrole/tailwind-shoes",
     demoUrl: "https://shoes-with-goose.netlify.app/",
+    cardStyles: "md:flex-row-reverse",
+    transition: "hover:-translate-y-[70%]",
   },
 ];
