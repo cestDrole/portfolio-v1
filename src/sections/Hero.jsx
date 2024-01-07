@@ -45,7 +45,7 @@ const Hero = () => {
                 src={item.imgURL}
                 alt={item.name}
                 className={`h-9 w-9 ${item.styles}
-                rounded-lg`}
+                rounded-lg hover:scale-[115%] transition duration-200`}
               />
             ))}
           </div>

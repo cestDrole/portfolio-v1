@@ -77,7 +77,7 @@ export const projectList = [
     githubUrl: "https://github.com/cestDrole/cars-nextjs",
     demoUrl: "https://car-rentalhub.netlify.app/",
     cardStyles: "md:flex-row",
-    transition: "hover:-translate-y-[50%]",
+    transition: "md:hover:-translate-y-[35%] xl:hover:-translate-y-[56%]",
   },
   {
     name: "Metaverse Madness",
@@ -88,7 +88,7 @@ export const projectList = [
     githubUrl: "https://github.com/cestDrole/metaversus-nextjs",
     demoUrl: "https://metaversus-madnesss.netlify.app/",
     cardStyles: "md:flex-row-reverse",
-    transition: "hover:-translate-y-[77%]",
+    transition: "md:hover:-translate-y-[72%] xl:hover:-translate-y-[82%]",
   },
   {
     name: "HooBank",
@@ -99,7 +99,7 @@ export const projectList = [
     githubUrl: "https://github.com/cestDrole/bank_tailwind",
     demoUrl: "https://bank-hoo-bank.netlify.app/",
     cardStyles: "md:flex-row",
-    transition: "hover:-translate-y-[63%]",
+    transition: "md:hover:-translate-y-[55%] xl:hover:-translate-y-[71%]",
   },
   {
     name: "Shoes Store",
@@ -110,6 +110,6 @@ export const projectList = [
     githubUrl: "https://github.com/cestDrole/tailwind-shoes",
     demoUrl: "https://shoes-with-goose.netlify.app/",
     cardStyles: "md:flex-row-reverse",
-    transition: "hover:-translate-y-[70%]",
+    transition: "md:hover:-translate-y-[63%] xl:hover:-translate-y-[76%]",
   },
 ];
