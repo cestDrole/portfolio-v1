@@ -5,10 +5,16 @@ const Footer = () => (
     <h2 className='text-white font-montserrat'>© Sebastian Jasnosz 2023</h2>
     <div className='flex justify-center items-center gap-4'>
       <a href='https://github.com/cestDrole' className='cursor-pointer'>
-        <img src={githubWhite} className='h-7 w-7' />
+        <img
+          src={githubWhite}
+          className='h-7 w-7 hover:scale-125 transition duration-200'
+        />
       </a>
       <a href='https://linkedin.com/in/sebastian-jasnosz'>
-        <img src={linkedinWhite} className='h-7 w-7' />
+        <img
+          src={linkedinWhite}
+          className='h-7 w-7 hover:scale-125 transition duration-200'
+        />
       </a>
     </div>
   </footer>
