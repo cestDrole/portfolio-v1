@@ -5,7 +5,7 @@ import { fadeIn, staggerContainer, textVariant } from "../utils/motion";
 
 const Hero = () => {
   return (
-    <motion.div
+    <motion.section
       variants={staggerContainer}
       initial='hidden'
       whileInView='show'
@@ -82,7 +82,7 @@ const Hero = () => {
           h-[250px] w-[250px] shadow-xl md:h-[400px] md:w-[400px] sm:h-[325px] sm:w-[325px]'
         />
       </motion.div>
-    </motion.div>
+    </motion.section>
   );
 };
 
