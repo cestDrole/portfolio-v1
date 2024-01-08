@@ -2,10 +2,18 @@ import { hamburger } from "../assets";
 import { navLinks } from "../constants";
 import Button from "../components/Button";
 import { download } from "../assets";
+import { motion } from "framer-motion";
+import { navVariants } from "../utils/motion";
 
 const NavBar = ({ status, setToggle }) => {
   return (
-    <header className='w-full z-10 sm:px-16 px-8 py-5 fixed shadow-xl bg-slate-50'>
+    <motion.header
+      variants={navVariants}
+      initial='hidden'
+      whileInView='show'
+      viewport={{ once: true, amount: 0.25 }}
+      className='w-full z-10 sm:px-16 px-8 py-5 fixed shadow-xl bg-slate-50'
+    >
       <nav className='flex justify-between items-center max-w-[1440px] mx-auto my-0 '>
         <a href='/' className='font-bold text-lg'>
           SJ
@@ -40,7 +48,7 @@ const NavBar = ({ status, setToggle }) => {
           />
         </div>
       </nav>
-    </header>
+    </motion.header>
   );
 };
 
