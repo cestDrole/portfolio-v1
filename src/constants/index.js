@@ -78,6 +78,7 @@ export const projectList = [
     demoUrl: "https://car-rentalhub.netlify.app/",
     cardStyles: "md:flex-row",
     transition: "md:hover:-translate-y-[35%] xl:hover:-translate-y-[56%]",
+    direction: "right",
   },
   {
     name: "Metaverse Madness",
@@ -89,6 +90,7 @@ export const projectList = [
     demoUrl: "https://metaversus-madnesss.netlify.app/",
     cardStyles: "md:flex-row-reverse",
     transition: "md:hover:-translate-y-[72%] xl:hover:-translate-y-[82%]",
+    direction: "left",
   },
   {
     name: "HooBank",
@@ -100,6 +102,7 @@ export const projectList = [
     demoUrl: "https://bank-hoo-bank.netlify.app/",
     cardStyles: "md:flex-row",
     transition: "md:hover:-translate-y-[55%] xl:hover:-translate-y-[71%]",
+    direction: "right",
   },
   {
     name: "Shoes Store",
@@ -111,5 +114,6 @@ export const projectList = [
     demoUrl: "https://shoes-with-goose.netlify.app/",
     cardStyles: "md:flex-row-reverse",
     transition: "md:hover:-translate-y-[63%] xl:hover:-translate-y-[76%]",
+    direction: "left",
   },
 ];
