@@ -21,7 +21,7 @@ const AboutMe = () => {
         >
           About Me
         </motion.h1>
-        <div className='flex flex-col gap-8 md:flex-row md:gap-0'>
+        <div className='flex flex-col gap-8 md:flex-row md:gap-0 items-center justify-center'>
           <motion.div variants={fadeIn("right", "tween", 0.5, 1.5)}>
             <AboutCard
               title={aboutMe[0].title}

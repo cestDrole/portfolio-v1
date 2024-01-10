@@ -11,7 +11,7 @@ const NavBar = ({ status, setToggle }) => {
       variants={navVariants}
       initial='hidden'
       whileInView='show'
-      viewport={{ once: true, amount: 0.25 }}
+      viewport={{ once: true, amount: 0 }}
       className='w-full z-10 sm:px-16 px-8 py-5 fixed shadow-xl bg-slate-50'
     >
       <nav className='flex justify-between items-center max-w-[1440px] mx-auto my-0 '>
