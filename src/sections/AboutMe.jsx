@@ -21,7 +21,7 @@ const AboutMe = () => {
         >
           About Me
         </motion.h1>
-        <div className='flex flex-col gap-8 md:flex-row md:gap-0 items-center justify-center'>
+        <div className='flex flex-col gap-8 md:flex-row md:gap-0 items-center justify-center overflow-x-hidden'>
           <motion.div
             variants={fadeIn("right", "spring", 0.5, 2)}
             initial='hidden'
@@ -57,7 +57,7 @@ const AboutMe = () => {
           variants={staggerContainer}
           initial='hidden'
           whileInView='show'
-          viewport={{ once: true, amount: 0.25 }}
+          viewport={{ once: true, amount: 0.5 }}
           className='flex flex-col md:flex-row gap-5 items-center justify-center'
         >
           <motion.h2

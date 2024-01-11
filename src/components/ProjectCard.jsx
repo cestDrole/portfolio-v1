@@ -12,7 +12,7 @@ const ProjectCard = ({
   transition,
 }) => (
   <div
-    className={`flex flex-auto justify-center md:w-[768px] md:h-[500px] xl:w-[1024px] h-[auto] items-center flex-col md:gap-6 xl:gap-0 ${cardStyles} border max-sm:basis-[310px] py-4 mx-4 px-7 rounded-2xl flex-shrink shadow-xl bg-white`}
+    className={`flex flex-auto justify-center md:w-[768px] md:h-[500px] xl:w-[1024px] h-[auto] items-center flex-col md:gap-6 xl:gap-0 ${cardStyles} border max-sm:basis-[310px] py-4 mx-4 px-7 rounded-2xl flex-shrink shadow-xl bg-white duration-1000`}
   >
     <div className='h-[250px] md:h-[380px] xl:h-[420px] w-[80%] md:w-auto overflow-hidden rounded-2xl shadow-lg mx-4 xl:mx-0 mt-4 md:mt-0'>
       <a href={demoUrl}>

@@ -10,7 +10,7 @@ const Hero = () => {
       initial='hidden'
       whileInView='show'
       viewport={{ once: true, amount: 0.25 }}
-      className='flex justify-center items-center  gap-4 sm:gap-8 w-full h-[850px] sm:h-[900px] md:h-[1000px] lg:h-[1100px] xl:h-[100vh] bg-slate-100 max-xl:flex-col-reverse'
+      className='flex justify-center items-center  gap-4 sm:gap-8 w-screen h-[850px] sm:h-[900px] md:h-[1000px] lg:h-[1100px] xl:h-[100vh] bg-slate-100 max-xl:flex-col-reverse'
     >
       <div className='px-8 sm:px-16 xl:px-0'>
         <div>

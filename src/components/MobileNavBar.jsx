@@ -5,7 +5,7 @@ import Button from "./Button";
 const MobileNavBar = ({ status, setToggle }) => {
   return (
     <div
-      className={`z-50 h-[100vh] w-full bg-white fixed transition-all duration-500 ease-in-out ${
+      className={`z-50 h-[100vh] w-screen bg-white fixed transition-all duration-500 ease-in-out ${
         status ? "right-0" : "-right-[100%]"
       }`}
     >

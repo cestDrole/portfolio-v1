@@ -9,7 +9,7 @@ const Projects = () => {
       variants={staggerContainer}
       initial='hidden'
       whileInView='show'
-      viewport={{ once: true, amount: 0.1 }}
+      viewport={{ once: true, amount: 0 }}
       className='flex flex-1 flex-col items-center justify-center bg-slate-100 pb-5'
     >
       <motion.h1
@@ -18,7 +18,7 @@ const Projects = () => {
       >
         Projects
       </motion.h1>
-      <div className='flex flex-1 flex-col gap-8  md:max-w-[1440px]'>
+      <div className='flex flex-1 flex-col gap-8  md:max-w-[1440px] overflow-x-hidden'>
         {projectList.map((project) => (
           <motion.div
             variants={fadeIn(project.direction, "spring", 0.5, 1.5)}

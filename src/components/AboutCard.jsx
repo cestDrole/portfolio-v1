@@ -7,7 +7,7 @@ const AboutCard = ({
   textStyles,
 }) => (
   <div
-    className={`flex flex-1 flex-col ${cardStyles} justify-center items-center border rounded-lg mx-4 md:px-6 lg:px-6 xl:px-0 shadow-xl xl:gap-6 md:h-[650px] xl:h-[500px]`}
+    className={`flex flex-1 flex-col ${cardStyles} justify-center items-center border rounded-lg mx-4 md:px-6 lg:px-6 xl:px-0 shadow-xl xl:gap-6 md:h-[650px] xl:h-[500px] duration-[2000ms]`}
   >
     <div className={`py-6 xl:py-0 ${imageStyles}`}>
       <img
