@@ -32,7 +32,7 @@ const Contact = () => (
         </a>
       </motion.div>
       <motion.div
-        variants={textVariant(0.5)}
+        variants={textVariant(0.6)}
         className='flex flex-col justify-center items-center gap-2 h-[93px] w-[167px]'
       >
         <img src={pin} className='h-7 w-7' />
