@@ -23,7 +23,7 @@ const AboutMe = () => {
         </motion.h1>
         <div className='flex flex-col gap-8 md:flex-row md:gap-0 items-center justify-center'>
           <motion.div
-            variants={fadeIn("right", "tween", 0.5, 1.5)}
+            variants={fadeIn("right", "spring", 0.5, 2)}
             initial='hidden'
             whileInView='show'
             viewport={{ once: true, amount: 0.5 }}
@@ -38,7 +38,7 @@ const AboutMe = () => {
             />
           </motion.div>
           <motion.div
-            variants={fadeIn("left", "tween", 0.5, 1.5)}
+            variants={fadeIn("left", "spring", 0.5, 2)}
             initial='hidden'
             whileInView='show'
             viewport={{ once: true, amount: 0.5 }}

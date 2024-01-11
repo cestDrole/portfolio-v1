@@ -21,7 +21,7 @@ const Projects = () => {
       <div className='flex flex-1 flex-col gap-8  md:max-w-[1440px]'>
         {projectList.map((project) => (
           <motion.div
-            variants={fadeIn(project.direction, "tween", 0.5, 1)}
+            variants={fadeIn(project.direction, "spring", 0.5, 1.5)}
             initial='hidden'
             whileInView='show'
             viewport={{ once: true, amount: 0.5 }}
