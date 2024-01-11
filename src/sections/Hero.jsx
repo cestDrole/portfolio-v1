@@ -78,6 +78,7 @@ const Hero = () => {
         <img
           src={hero}
           alt='hero'
+          fetchpriority='high'
           className='lg:h-[500px] lg:w-[500px] rounded-full
           h-[250px] w-[250px] shadow-xl md:h-[400px] md:w-[400px] sm:h-[325px] sm:w-[325px]'
         />
