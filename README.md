@@ -19,4 +19,4 @@ Welcome to my personal portfolio website! This repository contains the source co
 - Tailwind CSS
 - Framer Motion
 
-If you have any questions or would like to connect, you can reach me at [smwjasnosz@gmail.com](smwjasnosz@gmail.com).
+If you have any questions or would like to connect, you can reach me through [mail](smwjasnosz@gmail.com) or [LinkedIn](https://www.linkedin.com/in/sebastian-jasnosz).
