@@ -13,7 +13,7 @@ const Projects = () => {
       className='flex flex-1 flex-col items-center justify-center bg-slate-100 pb-5'
     >
       <motion.h1
-        variants={textVariant(0)}
+        variants={textVariant(2)}
         className='text-center font-semibold text-3xl py-6 font-montserrat'
       >
         Projects

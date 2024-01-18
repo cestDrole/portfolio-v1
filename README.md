@@ -1,8 +1,22 @@
-# React + Vite
+# Personal portfolio - Sebastian Jasnosz
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! This repository contains the source code and assets for my online portfolio. Here, you can learn more about me, explore my projects, and get in touch.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    Responsive Design: The website is optimized for various screen sizes, ensuring a seamless experience across devices.
+    About Me Section: Learn more about my background, skills, and professional journey.
+    Project Showcase: Explore the diverse range of projects I've worked on, complete with descriptions, images, and links.
+    Contact: Easily get in touch with me through email!
+    Resume Download: Access and download my resume directly from the website.
+
+Technologies Used
+
+    HTML5
+    CSS3
+    JavaScript
+    React
+    Tailwind CSS
+    Framer Motion
+
+If you have any questions or would like to connect, you can reach me at [smwjasnosz@gmail.com].

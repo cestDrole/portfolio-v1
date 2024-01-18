@@ -72,7 +72,7 @@ export const projectList = [
     name: "Car Rent Hub",
     description:
       "Car rental service featuring extensive car catalog working with Car Database and Image APIs",
-    tech: ["React", "Next.js", "Typescript", "Tailwind"],
+    tech: ["React", "Next.js", "Typescript", "Tailwind CSS"],
     imgURL: carRent,
     githubUrl: "https://github.com/cestDrole/cars-nextjs",
     demoUrl: "https://car-rentalhub.netlify.app/",
@@ -84,7 +84,7 @@ export const projectList = [
     name: "Metaverse Madness",
     description:
       "Landing page for the Virtual Reality Startup with animated transistions using Framer Motion library",
-    tech: ["React", "Tailwind", "Framer Motion"],
+    tech: ["React", "Tailwind CSS", "Framer Motion"],
     imgURL: metaverse,
     githubUrl: "https://github.com/cestDrole/metaversus-nextjs",
     demoUrl: "https://metaversus-madnesss.netlify.app/",
@@ -96,7 +96,7 @@ export const projectList = [
     name: "HooBank",
     description:
       "Landing page for the next generation Finance Startup with resposive design using tailwindcss",
-    tech: ["React", "Tailwind"],
+    tech: ["React", "Tailwind CSS"],
     imgURL: hoobank,
     githubUrl: "https://github.com/cestDrole/bank_tailwind",
     demoUrl: "https://bank-hoo-bank.netlify.app/",
@@ -108,7 +108,7 @@ export const projectList = [
     name: "Shoes Store",
     description:
       "Landing page for the Nike shoes store with responsive design using tailwindcss",
-    tech: ["React", "Tailwind"],
+    tech: ["React", "Tailwind CSS"],
     imgURL: shoes,
     githubUrl: "https://github.com/cestDrole/tailwind-shoes",
     demoUrl: "https://shoes-with-goose.netlify.app/",

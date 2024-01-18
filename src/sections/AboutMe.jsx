@@ -61,12 +61,12 @@ const AboutMe = () => {
           className='flex flex-col md:flex-row gap-5 items-center justify-center'
         >
           <motion.h2
-            variants={fadeIn("up", "spring", 0.4, 1)}
+            variants={fadeIn("up", "spring", 1, 1)}
             className='font-montserrat font-semibold text-xl'
           >
             Learn More
           </motion.h2>
-          <motion.div variants={fadeIn("up", "spring", 0.6, 1)}>
+          <motion.div variants={fadeIn("up", "spring", 1.3, 1)}>
             <Button label='Resume' iconUrl={download} buttonStyles={"flex"} />
           </motion.div>
         </motion.div>
