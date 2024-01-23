@@ -1,7 +1,7 @@
 import AboutCard from "../components/AboutCard";
 import { aboutMe } from "../constants";
 import Button from "../components/Button";
-import { download } from "../assets";
+import { download, resume } from "../assets";
 import { motion } from "framer-motion";
 import { staggerContainer, fadeIn, textVariant } from "../utils/motion";
 
@@ -67,7 +67,12 @@ const AboutMe = () => {
             Learn More
           </motion.h2>
           <motion.div variants={fadeIn("up", "spring", 1.3, 1)}>
-            <Button label='Resume' iconUrl={download} buttonStyles={"flex"} />
+            <Button
+              label='Resume'
+              iconUrl={download}
+              buttonStyles={"flex"}
+              download={resume}
+            />
           </motion.div>
         </motion.div>
       </motion.div>

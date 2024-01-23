@@ -1,4 +1,4 @@
-import { hamburger } from "../assets";
+import { hamburger, resume } from "../assets";
 import { navLinks } from "../constants";
 import Button from "../components/Button";
 import { download } from "../assets";
@@ -35,6 +35,7 @@ const NavBar = ({ status, setToggle }) => {
             label='Resume'
             iconUrl={download}
             buttonStyles={"hidden md:flex"}
+            download={resume}
           />
         </div>
         <div className='hidden max-md:block'>

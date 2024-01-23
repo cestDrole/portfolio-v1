@@ -22,6 +22,7 @@ import pin from "./pin.svg";
 import mail from "./mail.svg";
 import close from "./close.svg";
 import hero from "./hero.webp";
+import resume from "./Resume_Sebastian_Jasnosz.pdf";
 
 export {
   hamburger,
@@ -48,4 +49,5 @@ export {
   mail,
   close,
   hero,
+  resume,
 };

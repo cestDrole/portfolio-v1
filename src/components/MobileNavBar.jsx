@@ -1,4 +1,4 @@
-import { close, download } from "../assets";
+import { close, download, resume } from "../assets";
 import { navLinks } from "../constants";
 import Button from "./Button";
 
@@ -30,7 +30,12 @@ const MobileNavBar = ({ status, setToggle }) => {
           </li>
         ))}
         <li>
-          <Button label='Resume' iconUrl={download} buttonStyles={"flex"} />
+          <Button
+            label='Resume'
+            iconUrl={download}
+            buttonStyles={"flex"}
+            download={resume}
+          />
         </li>
       </ul>
     </div>
